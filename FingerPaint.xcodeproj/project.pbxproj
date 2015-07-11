@@ -14,6 +14,7 @@
 		BDDDF7C81B50717F007DDB18 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDDDF7C71B50717F007DDB18 /* Images.xcassets */; };
 		BDDDF7CB1B50717F007DDB18 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BDDDF7C91B50717F007DDB18 /* LaunchScreen.xib */; };
 		BDDDF7D71B50717F007DDB18 /* FingerPaintTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BDDDF7D61B50717F007DDB18 /* FingerPaintTests.m */; };
+		BDDDF7E51B507E4B007DDB18 /* FingerPaint.m in Sources */ = {isa = PBXBuildFile; fileRef = BDDDF7E41B507E4B007DDB18 /* FingerPaint.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		BDDDF7D01B50717F007DDB18 /* FingerPaintTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FingerPaintTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDDDF7D51B50717F007DDB18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BDDDF7D61B50717F007DDB18 /* FingerPaintTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FingerPaintTests.m; sourceTree = "<group>"; };
+		BDDDF7E31B507E4B007DDB18 /* FingerPaint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FingerPaint.h; sourceTree = "<group>"; };
+		BDDDF7E41B507E4B007DDB18 /* FingerPaint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FingerPaint.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +89,8 @@
 				BDDDF7C11B50717F007DDB18 /* ViewController.h */,
 				BDDDF7C21B50717F007DDB18 /* ViewController.m */,
 				BDDDF7C41B50717F007DDB18 /* Main.storyboard */,
+				BDDDF7E31B507E4B007DDB18 /* FingerPaint.h */,
+				BDDDF7E41B507E4B007DDB18 /* FingerPaint.m */,
 				BDDDF7C71B50717F007DDB18 /* Images.xcassets */,
 				BDDDF7C91B50717F007DDB18 /* LaunchScreen.xib */,
 				BDDDF7BA1B50717F007DDB18 /* Supporting Files */,
@@ -222,6 +227,7 @@
 				BDDDF7C31B50717F007DDB18 /* ViewController.m in Sources */,
 				BDDDF7C01B50717F007DDB18 /* AppDelegate.m in Sources */,
 				BDDDF7BD1B50717F007DDB18 /* main.m in Sources */,
+				BDDDF7E51B507E4B007DDB18 /* FingerPaint.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
